@@ -1,0 +1,127 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "431183015816" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "S" (id 0) (at 5.08 1.778 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "431183015816" (id 1) (at 5.08 -1.016 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "431183015816:431183015816" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VALUE" "431183015816" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "HEIGHT" "1.5mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEET-URL" "https://www.we-online.com/redexpert/spec/431183015816?ae" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PART-NUMBER" "431183015816" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "OPERATION-FORCE" "260g" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "QTY" "4000" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "431183015816_0_0"
+      (polyline
+        (pts (xy -2.54 5.08) (xy 0.0 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 5.08) (xy 2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy 0.0 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -2.54) (xy 2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 5.08) (xy 0.0 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -0.635) (xy 0.0 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.47 -0.2) (xy -1.04 2.61)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -5.08) (xy -1.27 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.762 -4.572) (xy -0.762 -4.572)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.508 -4.064) (xy -0.508 -4.064)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.27 7.62) (xy 1.27 7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.762 7.112) (xy 0.762 7.112)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.508 6.604) (xy 0.508 6.604)) (stroke (width 0.1524))
+      )
+      (circle (center 0.0 0.0) (radius 0.508)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 0.0 2.54) (radius 0.508)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (pin passive line (at -5.08 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 5.08 -2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 10.16 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "GND2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -7.62 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "GND1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

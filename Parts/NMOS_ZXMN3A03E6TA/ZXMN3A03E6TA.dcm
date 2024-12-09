@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ZXMN3A03E6TA
+D N-Channel 30 V 3.7A (Ta) 1.1W (Ta) Surface Mount SOT-23-6
+K
+F https://www.diodes.com//assets/Datasheets/ZXMN3A03E6.pdf
+$ENDCMP
+#
+#End Doc Library
