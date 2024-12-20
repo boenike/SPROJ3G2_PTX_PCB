@@ -15980,7 +15980,7 @@
 		(descr "THB001P-5")
 		(tags "Switch")
 		(property "Reference" "S1"
-			(at -0.937 9.175 0)
+			(at -3.9625 10.575 0)
 			(layer "F.SilkS")
 			(uuid "048de62d-a1cd-443f-b667-274cd68bc237")
 			(effects
@@ -16797,7 +16797,7 @@
 			(uuid "10c82e92-0429-40d9-9c17-861e86596a17")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.937 9.175 0)
+			(at -3.9625 10.575 0)
 			(layer "F.Fab")
 			(uuid "5c7274c8-8772-4db4-9d97-4e2008ae8d5c")
 			(effects
@@ -23527,7 +23527,7 @@
 		(uuid "24d072d2-f819-4599-b43d-a901191ba64b")
 	)
 	(segment
-		(start 128.896036 81.75)
+		(start 129.298656 81.75)
 		(end 122.15 81.75)
 		(width 0.6)
 		(layer "F.Cu")
@@ -23551,7 +23551,7 @@
 		(uuid "5eaa1c80-a7d8-48c4-9b7d-bdb8751511a3")
 	)
 	(segment
-		(start 132.743792 83.343792)
+		(start 132.459098 83.059098)
 		(end 135.056207 85.656207)
 		(width 0.6)
 		(layer "F.Cu")
@@ -23671,9 +23671,9 @@
 		(uuid "6eaa104d-f0a1-46fd-9f49-f84fbdc632ea")
 	)
 	(arc
-		(start 132.743792 83.343792)
-		(mid 130.978426 82.164213)
-		(end 128.896036 81.75)
+		(start 132.459098 83.059098)
+		(mid 131.009075 82.090224)
+		(end 129.298656 81.75)
 		(width 0.6)
 		(layer "F.Cu")
 		(net 17)
