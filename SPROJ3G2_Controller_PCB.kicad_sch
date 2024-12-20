@@ -5,11 +5,11 @@
 	(uuid "540a9e62-2358-4ebc-ab73-c13ebda646d1")
 	(paper "A4")
 	(title_block
-		(title "SPROJ3G2 - Controller Logic PCB")
-		(date "2024-11-11")
-		(rev "1.4")
-		(company "SDU Sonderborg")
-		(comment 1 "Author: Bence Toth")
+		(title "SPROJ3EEG2 - PTX PCB")
+		(date "2024-12-20")
+		(rev "1.6")
+		(company "SDU Sønderborg")
+		(comment 1 "Author: Bence Tóth")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
@@ -9363,7 +9363,7 @@
 		)
 		(uuid "2ded205c-5519-4672-a79c-d42d6f578a36")
 	)
-	(text "12MHz External Crystal Oscillator"
+	(text "12MHz Crystal Oscillator"
 		(exclude_from_sim no)
 		(at 146.812 69.85 0)
 		(effects
@@ -9375,7 +9375,7 @@
 		)
 		(uuid "38ab4c50-9ba3-43e5-8394-94f4c1f01714")
 	)
-	(text "Pins for the nRF24L01\ncommunication module"
+	(text "nRF24L01 connector"
 		(exclude_from_sim no)
 		(at 112.776 98.298 0)
 		(effects
@@ -9387,7 +9387,7 @@
 		)
 		(uuid "524f09ff-7dee-4063-a6ce-a1fa232eac05")
 	)
-	(text "Pins for the SSD1306\n128x32 I2C OLED Display"
+	(text "SSD1306 128x32 I2C\nOLED display connector"
 		(exclude_from_sim no)
 		(at 62.23 103.632 0)
 		(effects
@@ -9399,7 +9399,7 @@
 		)
 		(uuid "5bac3445-3a5f-4750-97f5-e7f86b799d28")
 	)
-	(text "Boot mode button"
+	(text "Boot button"
 		(exclude_from_sim no)
 		(at 104.902 23.114 0)
 		(effects
@@ -9413,7 +9413,7 @@
 	)
 	(text "USB-C 2.0 Port"
 		(exclude_from_sim no)
-		(at 152.4 177.292 0)
+		(at 162.56 128.27 0)
 		(effects
 			(font
 				(size 2 2)
@@ -9423,9 +9423,9 @@
 		)
 		(uuid "63db5723-73ac-4f02-b08d-5a3906429a7e")
 	)
-	(text "Joysticks"
+	(text "Thumbsticks"
 		(exclude_from_sim no)
-		(at 70.104 68.326 0)
+		(at 70.866 66.294 0)
 		(effects
 			(font
 				(size 2 2)
@@ -9447,7 +9447,7 @@
 		)
 		(uuid "9f7d12f8-52ad-4ad3-a31c-8bddcd86c138")
 	)
-	(text "16MB SPI Flash EEPROM chip"
+	(text "2MB SPI Flash"
 		(exclude_from_sim no)
 		(at 44.704 16.51 0)
 		(effects
@@ -9483,7 +9483,7 @@
 	)
 	(text "Logic level shifters for\nthe BMS UART communication"
 		(exclude_from_sim no)
-		(at 62.738 165.1 0)
+		(at 59.436 165.1 0)
 		(effects
 			(font
 				(size 2 2)
@@ -9495,7 +9495,7 @@
 	)
 	(text "3.3V Linear Voltage Regulator"
 		(exclude_from_sim no)
-		(at 90.17 133.604 0)
+		(at 87.63 133.604 0)
 		(effects
 			(font
 				(size 2 2)
@@ -9505,9 +9505,9 @@
 		)
 		(uuid "de108365-aa52-401f-8343-5341db28537c")
 	)
-	(text "BMS Input Power-\nUART Connector"
+	(text "BMS/Power connector"
 		(exclude_from_sim no)
-		(at 26.416 130.048 0)
+		(at 31.496 132.842 0)
 		(effects
 			(font
 				(size 2 2)
@@ -18457,7 +18457,7 @@
 		(dnp no)
 		(uuid "f8619c2d-d492-439b-8af1-25dc5a994590")
 		(property "Reference" "J3"
-			(at 146.05 129.032 0)
+			(at 146.05 176.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
